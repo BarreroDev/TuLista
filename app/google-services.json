@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "687203274335",
+    "project_id": "tulista-a7999",
+    "storage_bucket": "tulista-a7999.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687203274335:android:b2df25f6d3909ecb9815ea",
+        "android_client_info": {
+          "package_name": "com.example.tulista"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlYmYVDRVwndhT0JwtzygRygX537wzdFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
