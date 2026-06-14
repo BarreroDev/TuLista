@@ -27,7 +27,7 @@ import com.example.tulista.ui.theme.letras
 @Composable
 fun CardScreen(navController: NavHostController, viewModel: ListViewModel) {
 
-   // Llamamos al "almencen central"
+    // Llamamos al "almencen central"
     val listaProductos = viewModel.productos
 
     //Columna que aljo el interior de la vista CardScreen
@@ -120,13 +120,13 @@ fun CardScreen(navController: NavHostController, viewModel: ListViewModel) {
                                             verticalAlignment = Alignment.CenterVertically
                                         ) {
 
-                                            Checkbox(
-                                                checked = producto.isChecked,
-                                                onCheckedChange = { viewModel.tacharProducto(producto) },
-                                                colors = CheckboxDefaults.colors(
-                                                    checkedColor = checkBox
-                                                )
-                                            )
+//                                            Checkbox(
+//                                                checked = producto.isChecked,
+//                                                onCheckedChange = { viewModel.tacharProducto(producto) },
+//                                                colors = CheckboxDefaults.colors(
+//                                                    checkedColor = checkBox
+//                                                )
+//                                            )
 
                                             Text(
                                                 text = producto.name,
